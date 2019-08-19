@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CloudController : MonoBehaviour {
-
     //最小サイズ
     private float minimum = 1.0f;
     //拡大縮小スピード
     private float magSpeed = 10.0f;
     //拡大率
     private float magnification = 0.07f;
+
 
 
 	// Use this for initialization

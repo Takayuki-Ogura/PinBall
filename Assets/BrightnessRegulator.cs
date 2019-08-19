@@ -18,6 +18,7 @@ public class BrightnessRegulator : MonoBehaviour {
     Color defaultColor = Color.white;
 
 
+
     // Use this for initialization
     void Start() {
         //タグによって光らせる色を変える

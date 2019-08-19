@@ -3,6 +3,18 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour {
+    /* 課題用スクリプト
+     * レビュアーコメント：
+     * 課題・発展課題について動作確認しました。課題の条件通りの挙動をしており、合格です。
+     * ものすごく細かいことですが、課題について、「点数の表示を更新する」という処理があります。
+     * これは「得点が変化した時」つまり「得点を加算した時」に行う必要があります。
+     * 提出されたコードでは「衝突された時」に得点が変化しなくても表示の更新処理を行っています。
+     * このように書いた理由は「見やすさ」を優先したからだと思います。
+     * 無駄な処理をしないことを優先した場合は、得点を加算した直後に「のみ」表示を更新する処理を書くでしょう。
+     * 大変難しいことですが、このように、「何を優先しているか」を考慮して作ることができると、かなり良いでしょう。
+     */
+
+
 
     //Scoreを表示するテキスト
     public GameObject ScoreText;
@@ -16,6 +28,7 @@ public class ScoreController : MonoBehaviour {
     
     //スコアの計算
     private int score;
+
 
 
     // Use this for initialization

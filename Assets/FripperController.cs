@@ -27,7 +27,6 @@ public class FripperController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
         //発展課題
         //Debug.Log(Input.touchCount);
 
@@ -82,7 +81,6 @@ public class FripperController : MonoBehaviour {
         }
 
 
-
         //左矢印キーを押した時左フリッパーを動かす
         if (Input.GetKeyDown(KeyCode.LeftArrow) && tag == "LeftFripperTag")
         {
@@ -94,7 +92,6 @@ public class FripperController : MonoBehaviour {
             SetAngle(this.flickAngle);
         }
         
-
 
         //矢印キー離された時フリッパーを元に戻す
         if (Input.GetKeyUp(KeyCode.LeftArrow) && tag == "LeftFripperTag")

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StarController : MonoBehaviour {
-
     //回転速度
     private float rotSpeed = 1.0f;
+
+
 
 	// Use this for initialization
 	void Start () {
